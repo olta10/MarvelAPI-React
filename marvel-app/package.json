@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
+    "http-proxy-middleware": "^3.0.5",
     "md5": "^2.3.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
@@ -21,6 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "https://superheroapi.com/api/5f27aee6001188a106155114a78714c3",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -11,8 +11,8 @@ body {
 }
 .card-img-top {
   width: 100%;
-  height: 500px;  /* të gjitha kartat të kenë të njëjtën lartësi */
-  object-fit: cover; /* prerje dhe mbushje pa deformuar */
+  height: 500px;  
+  object-fit: cover; 
 }
 
 .card-body {

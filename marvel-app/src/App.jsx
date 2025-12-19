@@ -7,13 +7,8 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    if (darkMode) {
-      document.body.style.backgroundColor = "#121212";
-      document.body.style.color = "#f8f9fa";
-    } else {
-      document.body.style.backgroundColor = "#f8f9fa";
-      document.body.style.color = "#212529";
-    }
+    document.body.style.backgroundColor = darkMode ? "#121212" : "#f8f9fa";
+    document.body.style.color = darkMode ? "#f8f9fa" : "#212529";
   }, [darkMode]);
 
   return (
